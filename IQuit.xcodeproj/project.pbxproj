@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		243C3009268F48DCB1BCCD87 /* IQuitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF1EC67FE454D618650E1B9 /* IQuitApp.swift */; };
+		42BDDFCDB73A403BBD9F26D5 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7558C3B86BDF4332BA04D56E /* ChatView.swift */; };
+		47F2A5D0F37E4EA7A2909CBA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4A9906ADE4A58A12B71F4 /* HomeView.swift */; };
+		556768A97C9F4B6CA281BE43 /* Assets.xcassets in Frameworks */ = {isa = PBXBuildFile; fileRef = F61192824E5F41C89D6D2AE4 /* Assets.xcassets */; };
+		600AF5F6D2EE401B91A1D054 /* DotGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575E5AE9FA7E41B7BAE25F1D /* DotGridView.swift */; };
+		7FD5AE609B24419182F5C356 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFBE46DFE154092A093D1E0 /* StatsView.swift */; };
+		84B3AE0B4B944A5B939DE555 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4795F70CD34224B3A1F069 /* ContentView.swift */; };
+		B180B9207C9C4DB5A2FA7B2F /* HabitStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177276C2FA2C47838392527D /* HabitStore.swift */; };
+		BE23BA592F4B446B00901121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE23BA582F4B446B00901121 /* Assets.xcassets */; };
+		CA769A30D1324CBF9E8CEA55 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FA955D502D4A5080145FFD /* Theme.swift */; };
+		DA60AE74C13A46328B9BDA6D /* ChatBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0193EA2206CF4FAAB2C86A29 /* ChatBot.swift */; };
+		E1D61013694A4622820BBE50 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80D43D815C4DA59E75FF45 /* SetupView.swift */; };
+		F49D3380526049319F783ED1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F0A4C493D64D7C8730EEAF /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0193EA2206CF4FAAB2C86A29 /* ChatBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBot.swift; sourceTree = "<group>"; };
+		177276C2FA2C47838392527D /* HabitStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitStore.swift; sourceTree = "<group>"; };
+		1FA4A9906ADE4A58A12B71F4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		36F0A4C493D64D7C8730EEAF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		575E5AE9FA7E41B7BAE25F1D /* DotGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotGridView.swift; sourceTree = "<group>"; };
+		7558C3B86BDF4332BA04D56E /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		81FA955D502D4A5080145FFD /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		8E80D43D815C4DA59E75FF45 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		A01E002A55174D5C889CFB5C /* IQuit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQuit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE23BA582F4B446B00901121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = IQuit/Assets.xcassets; sourceTree = "<group>"; };
+		BFFBE46DFE154092A093D1E0 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		ECF1EC67FE454D618650E1B9 /* IQuitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQuitApp.swift; sourceTree = "<group>"; };
+		EE4795F70CD34224B3A1F069 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F61192824E5F41C89D6D2AE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5220BB3BD494869AACCA318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556768A97C9F4B6CA281BE43 /* Assets.xcassets in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72BE6EBB06B549D79623DF1F /* IQuit */ = {
+			isa = PBXGroup;
+			children = (
+				ECF1EC67FE454D618650E1B9 /* IQuitApp.swift */,
+				EE4795F70CD34224B3A1F069 /* ContentView.swift */,
+				E348C0DA283842CFB5043120 /* Views */,
+				8C6C399B992A41BEAF4FB7F0 /* Models */,
+			);
+			path = IQuit;
+			sourceTree = "<group>";
+		};
+		8C6C399B992A41BEAF4FB7F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81FA955D502D4A5080145FFD /* Theme.swift */,
+				177276C2FA2C47838392527D /* HabitStore.swift */,
+				0193EA2206CF4FAAB2C86A29 /* ChatBot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BE23BA572F4B441E00901121 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				F61192824E5F41C89D6D2AE4 /* Assets.xcassets */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		D3BCE93598F44A62B39AE960 = {
+			isa = PBXGroup;
+			children = (
+				BE23BA582F4B446B00901121 /* Assets.xcassets */,
+				72BE6EBB06B549D79623DF1F /* IQuit */,
+				F37A41EE0ACE44DDA61679D3 /* Products */,
+				BE23BA572F4B441E00901121 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		E348C0DA283842CFB5043120 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E80D43D815C4DA59E75FF45 /* SetupView.swift */,
+				1FA4A9906ADE4A58A12B71F4 /* HomeView.swift */,
+				575E5AE9FA7E41B7BAE25F1D /* DotGridView.swift */,
+				7558C3B86BDF4332BA04D56E /* ChatView.swift */,
+				BFFBE46DFE154092A093D1E0 /* StatsView.swift */,
+				36F0A4C493D64D7C8730EEAF /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F37A41EE0ACE44DDA61679D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A01E002A55174D5C889CFB5C /* IQuit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50660C2AFB2A471F8F3A6413 /* IQuit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BFE415E50004B68B1751532 /* Build configuration list for PBXNativeTarget "IQuit" */;
+			buildPhases = (
+				454CC97F2688410D87703C08 /* Sources */,
+				A5220BB3BD494869AACCA318 /* Frameworks */,
+				D79D8BE320254A80AFF4EDAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQuit;
+			productName = IQuit;
+			productReference = A01E002A55174D5C889CFB5C /* IQuit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F833559BDD94852AD1916B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					50660C2AFB2A471F8F3A6413 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 088E6E14F0F6475A90BB56AF /* Build configuration list for PBXProject "IQuit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3BCE93598F44A62B39AE960;
+			productRefGroup = F37A41EE0ACE44DDA61679D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50660C2AFB2A471F8F3A6413 /* IQuit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D79D8BE320254A80AFF4EDAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE23BA592F4B446B00901121 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		454CC97F2688410D87703C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243C3009268F48DCB1BCCD87 /* IQuitApp.swift in Sources */,
+				84B3AE0B4B944A5B939DE555 /* ContentView.swift in Sources */,
+				E1D61013694A4622820BBE50 /* SetupView.swift in Sources */,
+				47F2A5D0F37E4EA7A2909CBA /* HomeView.swift in Sources */,
+				600AF5F6D2EE401B91A1D054 /* DotGridView.swift in Sources */,
+				42BDDFCDB73A403BBD9F26D5 /* ChatView.swift in Sources */,
+				7FD5AE609B24419182F5C356 /* StatsView.swift in Sources */,
+				F49D3380526049319F783ED1 /* SettingsView.swift in Sources */,
+				CA769A30D1324CBF9E8CEA55 /* Theme.swift in Sources */,
+				B180B9207C9C4DB5A2FA7B2F /* HabitStore.swift in Sources */,
+				DA60AE74C13A46328B9BDA6D /* ChatBot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37C3FB2493B14D2A8D4B883F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70EA47504BBC4D4FA751A39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 544MZY3G57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "I Quit";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iquit.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		948919F2FADD4EAD8B141FC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 544MZY3G57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "I Quit";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iquit.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA2627B385224368B9884DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		088E6E14F0F6475A90BB56AF /* Build configuration list for PBXProject "IQuit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C3FB2493B14D2A8D4B883F /* Debug */,
+				FA2627B385224368B9884DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BFE415E50004B68B1751532 /* Build configuration list for PBXNativeTarget "IQuit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EA47504BBC4D4FA751A39D /* Debug */,
+				948919F2FADD4EAD8B141FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F833559BDD94852AD1916B1 /* Project object */;
+}
